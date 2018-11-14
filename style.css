@@ -52,7 +52,7 @@ background-size: cover;
 
 /*-------------Title Container --------------*/
 #title-container{
-    margin:200px 0px;
+    margin:100px 0px 200px 0px;
     height:200px;
     text-align: center;
    
@@ -80,7 +80,27 @@ background-size: cover;
     #title-container div{
      text-align: center;
 }
+
+#my-face {
+    border:0px solid black;
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    margin:0px auto;
+    background-image: url(images/my-face.jpg);
+    background-repeat: no-repeat;
+    background-size:450px;
+    background-position: -170px -20px;
+}
+
+
 /*-------------TECHNO - SHOWCASE --------------*/
+
+#techno-showcase-container {
+    background-color: rgba(235, 235, 235, 0.199);
+    margin-bottom:40px;
+}
+
 #techno-showcase {
     width:1280px;
     margin:0px auto;
@@ -134,6 +154,75 @@ background-size: cover;
 }
 
 #comment1  {
+    text-align: center;
+    color: rgb(30, 42, 65);
+    padding:50px 0px;
+    font-size:1.8rem;
+    font-weight:100;
+    
+}
+
+
+/*-------------Extra - SHOWCASE --------------*/
+
+#extra-showcase-container {
+    background-color: rgba(235, 235, 235, 0.199);
+    margin-bottom:40px;
+}
+
+#extra-showcase {
+    width:1280px;
+    margin:0px auto;
+    height:250px;
+    
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    
+
+   
+    
+}
+
+#extra-showcase div {
+    
+    text-align: center;
+    font-size:1rem;
+    border-radius:10%;
+    width:300px;
+   
+
+}
+
+#extra-showcase div i {
+    color: rgb(30, 42, 65);
+    padding-top: 40px;
+   
+
+}
+
+    #extra-showcase div #html-img {
+        color: rgb(209, 89, 46);
+    }
+    #extra-showcase div #css-img {
+        color: rgb(55, 66, 212);
+    }
+    #extra-showcase div #js-img {
+        color: rgb(194, 186, 77);
+    }
+     #extra-showcase div #cool-img {
+         color: rgb(59, 128, 50);
+    }
+    
+
+#extra-showcase div h4 {
+    color: rgb(30, 42, 65);
+    padding-top: 10px;
+    font-size:1rem;
+    font-weight: 100;
+}
+
+#comment2  {
     text-align: center;
     color: rgb(30, 42, 65);
     padding:50px 0px;
