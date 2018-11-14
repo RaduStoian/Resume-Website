@@ -97,8 +97,17 @@ background-size: cover;
 /*-------------TECHNO - SHOWCASE --------------*/
 
 #techno-showcase-container {
-    background-color: rgba(235, 235, 235, 0.199);
-    margin-bottom:40px;
+    background-color: rgba(235, 235, 235, 0.479);
+    margin-bottom:17px;
+    text-align: center;
+}
+
+#main-skills{
+    font-size: 2rem;
+    color:gray;
+    position: relative;
+    right: 37vw;
+
 }
 
 #techno-showcase {
@@ -156,77 +165,149 @@ background-size: cover;
 #comment1  {
     text-align: center;
     color: rgb(30, 42, 65);
-    padding:50px 0px;
+    padding:20px 0px 0px 0px;
     font-size:1.8rem;
     font-weight:100;
     
 }
 
 
-/*-------------Extra - SHOWCASE --------------*/
+/*-------------Git - SHOWCASE --------------*/
 
-#extra-showcase-container {
-    background-color: rgba(235, 235, 235, 0.199);
-    margin-bottom:40px;
-}
 
-#extra-showcase {
-    width:1280px;
+
+#git-showcase {
+ 
     margin:0px auto;
-    height:250px;
+    height:350px;
     
     display:grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 20px;
-    
-
-   
-    
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 17px;
+     
 }
 
-#extra-showcase div {
-    
+#git-showcase div {
     text-align: center;
     font-size:1rem;
-    border-radius:10%;
-    width:300px;
-   
+    margin-bottom: 17px;
+    background-color: rgba(235, 235, 235, 0.479);
+  
 
-}
-
-#extra-showcase div i {
-    color: rgb(30, 42, 65);
-    padding-top: 40px;
-   
-
-}
-
-    #extra-showcase div #html-img {
-        color: rgb(209, 89, 46);
-    }
-    #extra-showcase div #css-img {
-        color: rgb(55, 66, 212);
-    }
-    #extra-showcase div #js-img {
-        color: rgb(194, 186, 77);
-    }
-     #extra-showcase div #cool-img {
-         color: rgb(59, 128, 50);
-    }
-    
-
-#extra-showcase div h4 {
-    color: rgb(30, 42, 65);
-    padding-top: 10px;
-    font-size:1rem;
-    font-weight: 100;
 }
 
 #comment2  {
-    text-align: center;
+   position: relative;
+   left:200px;
     color: rgb(30, 42, 65);
-    padding:50px 0px;
-    font-size:1.8rem;
+    padding:100px 0px;
+    font-size:1.4rem;
     font-weight:100;
+}
+
+#comment2 span {
+    font-size: 2rem;
     
+}
+
+#github-img {
+    background-image: url(images/github.png);
+    background-repeat: no-repeat;
+    background-position: 70px;
+}
+
+/*-------------Node - SHOWCASE --------------*/
+
+
+
+#node-showcase {
+ 
+    margin:0px auto;
+    height:350px;
+    
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 17px;
+     
+}
+
+#node-showcase div {
+    text-align: center;
+    font-size:1rem;
+    margin-bottom: 17px;
+    background-color: rgba(235, 235, 235, 0.479);
+  
+
+}
+
+#comment3  {
+   position: relative;
+   left:-200px;
+    color: rgb(30, 42, 65);
+    padding:100px 0px;
+    font-size:1.4rem;
+    font-weight:100;  
+}
+
+#comment3 span {
+    font-size: 2rem;
+    
+}
+
+#node-img {
+    background-image: url(images/node.png);
+    background-repeat: no-repeat;
+    background-position: 530px;
+    background-size: 300px;
+}
+
+/*-------------PHP and MySQL - SHOWCASE --------------*/
+
+
+
+#php-showcase {
+ 
+    margin:0px auto;
+    height:350px;
+    
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 17px;
+     
+}
+
+#php-showcase div {
+    text-align: center;
+    font-size:1rem;
+    margin-bottom: 17px;
+    background-color: rgba(235, 235, 235, 0.479);
+  
+
+}
+
+#comment4  {
+ 
+    color: rgb(30, 42, 65);
+    padding:100px 0px;
+    font-size:1.4rem;
+    font-weight:100;  
+}
+
+#comment4 span {
+    font-size: 2rem;
+    
+}
+
+#php-img {
+    background-image: url(images/php2.png);
+    background-repeat: no-repeat;
+    background-position:270px 80px; 
+    background-size: 400px;
+}
+
+#mysql-img {
+    background-image: url(images/mysql.png);
+    background-repeat: no-repeat;
+    background-position:100px 80px; 
+    background-size: 300px;
 }
