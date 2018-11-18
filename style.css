@@ -113,23 +113,16 @@ background-size: cover;
 /*-------------TECHNO - SHOWCASE --------------*/
 
 #techno-showcase-container {
-    background-color: rgba(235, 235, 235, 0.479);
-    margin-bottom:17px;
+    background-color:#333333;
+    margin-bottom:13px;
     text-align: center;
 }
 
-#main-skills{
-    font-size: 2rem;
-    color:gray;
-    position: relative;
-    right: 37vw;
-
-}
 
 #techno-showcase {
     width:1280px;
     margin:0px auto;
-    height:250px;
+    height:280px;
     
     display:grid;
     grid-template-columns: repeat(4,1fr);
@@ -146,13 +139,14 @@ background-size: cover;
     font-size:1rem;
     border-radius:10%;
     width:300px;
+    color:white;
    
 
 }
 
 #techno-showcase div i {
-    color: rgb(30, 42, 65);
-    padding-top: 40px;
+    color: rgb(255, 255, 255);
+    padding-top: 60px;
    
 
 }
@@ -172,7 +166,7 @@ background-size: cover;
     
 
 #techno-showcase div h4 {
-    color: rgb(30, 42, 65);
+    color: rgb(255, 255, 255);
     padding-top: 10px;
     font-size:1rem;
     font-weight: 100;
@@ -180,67 +174,87 @@ background-size: cover;
 
 #comment1  {
     text-align: center;
-    color: rgb(30, 42, 65);
-    padding:20px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+    padding:30px 0px 0px 0px;
     font-size:1.4rem;
     font-weight:100;
     
 }
 
 
-/*-------------Git - SHOWCASE --------------*/
+/*-------------first - SHOWCASE --------------*/
 
 
 
-#git-showcase {
+#first-showcase {
  
     margin:0px auto;
-    height:350px;
+    height:550px;
     
     display:grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 17px;
+    grid-gap: 13px;
      
 }
 
-#git-showcase div {
+#git-div {
     text-align: center;
     font-size:1rem;
     margin-bottom: 17px;
-    background-color: rgba(235, 235, 235, 0.479);
+    background-color: rgba(235, 235, 235, 0.226);
+    overflow: hidden;
+  
+
+}
+
+#node-div {
+    text-align: center;
+    font-size:1rem;
+    margin-bottom: 17px;
+    background-color: rgba(235, 235, 235, 0.226);
     overflow: hidden;
   
 
 }
 
 #comment2  {
-    position: relative;
-    left:15%;
+    padding:50px 20px 0px 20px;
     color: rgb(30, 42, 65);
-    padding:100px 100px 0px 0px;
     font-size:1.2rem;
     font-weight:100;
 }
 
 #comment2 span {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bold;
     
 }
 
-#github-img {
- position: relative;
- width:350px;
- top:40px;
- right: 10%;
- padding: 15px;
+#comment3  {
+    color: rgb(30, 42, 65);
+    padding:50px 20px 0px 20px;
+    font-size:1.2rem;
+    font-weight:100;  
 }
 
+#comment3 span {
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+#github-img {
+ width:300px;
+ padding:0px 20px 10px 20px;
+}
+
+#node-img {
+  width:300px;
+  padding:50px 20px 0px 20px;
+}
 /*-------------Node - SHOWCASE --------------*/
 
 
-
-#node-showcase {
+#second-showcase {
  
     margin:0px auto;
     height:350px;
@@ -250,38 +264,17 @@ background-size: cover;
     grid-gap: 17px;
      
 }
-
-#node-showcase div {
+#second-showcase div {
     text-align: center;
     font-size:1rem;
     margin-bottom: 17px;
-    background-color: rgba(235, 235, 235, 0.479);
+    background-color: rgba(235, 235, 235, 0.226);
   
 
 }
 
-#comment3  {
-   position: relative;
-   left:-15%;
-    color: rgb(30, 42, 65);
-    padding:100px 0px 0px 100px;
-    font-size:1.2rem;
-    font-weight:100;  
-}
 
-#comment3 span {
-    font-size: 1.8rem;
-    font-weight: bold;
-    
-}
 
-#node-img {
-  width:300px;
-  position: relative;
-  padding:50px 70px 0px 0px;
-  top:30px;
-  left:15%;
-}
 
 /*-------------PHP and MySQL - SHOWCASE --------------*/
 
@@ -294,7 +287,6 @@ background-size: cover;
     
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 17px;
      
 }
 
@@ -302,7 +294,7 @@ background-size: cover;
     text-align: center;
     font-size:1rem;
     margin-bottom: 17px;
-    background-color: rgba(235, 235, 235, 0.479);
+    background-color: rgba(235, 235, 235, 0.226);
     overflow: unset;
     padding: 0px 10px;
   
@@ -318,7 +310,7 @@ background-size: cover;
 }
 
 #comment4 span {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: bold;
     
 }
