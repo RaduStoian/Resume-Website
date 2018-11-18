@@ -8,7 +8,23 @@ body {
 }
 /*-----------PREDETERMINED CSS ---------*/
 
+/*-----------Buttons and Links ---------*/
 
+p a {
+    border:1px solid black;
+    border-radius: 25px;
+    padding: 5px 10px;
+    display:inline-block;
+    cursor:pointer;
+    
+   
+}
+
+p a:hover{
+    background-color:black;
+    color:white;
+    transition: 0.2s;
+}
 
 /*-------------SHOWCASE --------------*/
 #showcase {
@@ -166,7 +182,7 @@ background-size: cover;
     text-align: center;
     color: rgb(30, 42, 65);
     padding:20px 0px 0px 0px;
-    font-size:1.8rem;
+    font-size:1.4rem;
     font-weight:100;
     
 }
@@ -192,28 +208,32 @@ background-size: cover;
     font-size:1rem;
     margin-bottom: 17px;
     background-color: rgba(235, 235, 235, 0.479);
+    overflow: hidden;
   
 
 }
 
 #comment2  {
-   position: relative;
-   left:200px;
+    position: relative;
+    left:15%;
     color: rgb(30, 42, 65);
-    padding:100px 0px;
-    font-size:1.4rem;
+    padding:100px 100px 0px 0px;
+    font-size:1.2rem;
     font-weight:100;
 }
 
 #comment2 span {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
     
 }
 
 #github-img {
-    background-image: url(images/github.png);
-    background-repeat: no-repeat;
-    background-position: 70px;
+ position: relative;
+ width:350px;
+ top:40px;
+ right: 10%;
+ padding: 15px;
 }
 
 /*-------------Node - SHOWCASE --------------*/
@@ -242,23 +262,25 @@ background-size: cover;
 
 #comment3  {
    position: relative;
-   left:-200px;
+   left:-15%;
     color: rgb(30, 42, 65);
-    padding:100px 0px;
-    font-size:1.4rem;
+    padding:100px 0px 0px 100px;
+    font-size:1.2rem;
     font-weight:100;  
 }
 
 #comment3 span {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
     
 }
 
 #node-img {
-    background-image: url(images/node.png);
-    background-repeat: no-repeat;
-    background-position: 530px;
-    background-size: 300px;
+  width:300px;
+  position: relative;
+  padding:50px 70px 0px 0px;
+  top:30px;
+  left:15%;
 }
 
 /*-------------PHP and MySQL - SHOWCASE --------------*/
@@ -281,6 +303,8 @@ background-size: cover;
     font-size:1rem;
     margin-bottom: 17px;
     background-color: rgba(235, 235, 235, 0.479);
+    overflow: unset;
+    padding: 0px 10px;
   
 
 }
@@ -289,25 +313,28 @@ background-size: cover;
  
     color: rgb(30, 42, 65);
     padding:100px 0px;
-    font-size:1.4rem;
+    font-size:1.2rem;
     font-weight:100;  
 }
 
 #comment4 span {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
     
 }
 
 #php-img {
-    background-image: url(images/php2.png);
-    background-repeat: no-repeat;
-    background-position:270px 80px; 
-    background-size: 400px;
+  width:400px;
+  position: relative;
+  top:70px;
+  left:20%;
+  
 }
 
 #mysql-img {
-    background-image: url(images/mysql.png);
-    background-repeat: no-repeat;
-    background-position:100px 80px; 
-    background-size: 300px;
+    width:300px;
+    position: relative;
+     top:25px;
+     padding: 50px;
+     
 }
