@@ -16,7 +16,7 @@ body {
 /*-----------Buttons and Links ---------*/
 
 p a {
-    border:1px solid black;
+    border:1px solid #333333;
     border-radius: 25px;
     padding: 5px 10px;
     display:inline-block;
@@ -26,7 +26,7 @@ p a {
 }
 
 p a:hover{
-    background-color:black;
+    background-color: #333333;
     color:white;
     transition: 0.2s;
 }
@@ -124,13 +124,13 @@ background-size: cover;
 
 
 #techno-showcase {
-    width:1280px;
+    width:80vw;
     margin:0px auto;
     height:280px;
-    
     display:grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 20px;
+    grid-gap: 0px;
+    overflow:hidden;
     
 
    
@@ -141,37 +141,45 @@ background-size: cover;
     
     text-align: center;
     font-size:1rem;
-    border-radius:10%;
-    width:300px;
     color:white;
-   
-
+    overflow:hidden;  
 }
 
-#techno-showcase div i {
-    color: rgb(255, 255, 255);
-    padding-top: 60px;
-   
 
-}
 
-    #techno-showcase div #html-img {
-        color: rgb(209, 89, 46);
+     #html-img {
+        background-image: url(images/html.png);
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
     }
-    #techno-showcase div #css-img {
-        color: rgb(55, 66, 212);
+
+    #css-img {
+        background-image: url(images/css.png);
+        background-size: 162px;
+        background-repeat: no-repeat;
+        background-position: center 62px;
+       
     }
-    #techno-showcase div #js-img {
-        color: rgb(194, 186, 77);
+   #js-img {
+         background-image: url(images/js.png);
+         background-size: 320px;
+        background-repeat: no-repeat;
+        background-position: center 53px;
+        
     }
-     #techno-showcase div #cool-img {
-         color: rgb(59, 128, 50);
+    #cool-img {
+        background-image: url(images/design.png);
+        background-size: 186px;
+        background-repeat: no-repeat;
+        background-position: center 50px;
+         
     }
     
 
 #techno-showcase div h4 {
     color: rgb(255, 255, 255);
-    padding-top: 10px;
+    padding-top: 230px;
     font-size:1rem;
     font-weight: 100;
 }
@@ -194,54 +202,39 @@ background-size: cover;
  
     margin:0px auto;
     height:550px;
-    
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 13px;
+    margin-bottom: 13px;
      
 }
 
 #git-div {
     text-align: center;
-    font-size:1rem;
-    margin-bottom: 17px;
-    background-color: rgba(235, 235, 235, 0.226);
+    background-color: rgba(235, 235, 235, 0.40);
     overflow: hidden;
+    border-radius: 10px;
   
 
 }
 
 #node-div {
     text-align: center;
-    font-size:1rem;
-    margin-bottom: 17px;
-    background-color: rgba(235, 235, 235, 0.226);
+    background-color: rgba(235, 235, 235, 0.40);
     overflow: hidden;
+    border-radius: 10px;
   
 
 }
 
-#comment2  {
+.comment  {
     padding:50px 20px 0px 20px;
     color: rgb(30, 42, 65);
     font-size:1.2rem;
     font-weight:100;
 }
 
-#comment2 span {
-    font-size: 2rem;
-    font-weight: bold;
-    
-}
-
-#comment3  {
-    color: rgb(30, 42, 65);
-    padding:50px 20px 0px 20px;
-    font-size:1.2rem;
-    font-weight:100;  
-}
-
-#comment3 span {
+.comment span {
     font-size: 2rem;
     font-weight: bold;
     
@@ -253,30 +246,34 @@ background-size: cover;
 
 #node-img {
   width:300px;
-  padding:50px 20px 0px 20px;
+  padding:50px 20px 10px 20px;
 }
-/*-------------Node - SHOWCASE --------------*/
-
+/*-------------SECOND - SHOWCASE --------------*/
 
 #second-showcase {
- 
     margin:0px auto;
-    height:350px;
-    
+    height:550px; 
     display:grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 17px;
-     
+    grid-gap: 13px;
+    margin-bottom: 13px;
 }
 #second-showcase div {
     text-align: center;
-    font-size:1rem;
-    margin-bottom: 17px;
-    background-color: rgba(235, 235, 235, 0.226);
-  
-
+    background-color: rgba(235, 235, 235, 0.40);
+    border-radius:14px;
 }
 
+#ps-img {
+width:300px;
+padding:10px 20px 10px 20px;
+}
+
+
+#wordpress-img {
+    width:350px;
+    padding:40px 20px 10px 20px;
+    }
 
 
 
@@ -287,37 +284,25 @@ background-size: cover;
 #php-showcase {
  
     margin:0px auto;
-    height:350px;
-    
+    height:300px;
     display:grid;
     grid-template-columns: repeat(3,1fr);
+    margin-bottom: 13px;
      
 }
 
 #php-showcase div {
     text-align: center;
     font-size:1rem;
-    margin-bottom: 17px;
-    background-color: rgba(235, 235, 235, 0.226);
-    overflow: unset;
+    background-color: rgba(235, 235, 235, 0.40);
+    overflow: hidden;
     padding: 0px 10px;
   
-
+}
+#php-comment{
+    min-width:226px;
 }
 
-#comment4  {
- 
-    color: rgb(30, 42, 65);
-    padding:100px 0px;
-    font-size:1.2rem;
-    font-weight:100;  
-}
-
-#comment4 span {
-    font-size: 2rem;
-    font-weight: bold;
-    
-}
 
 #php-img {
   width:400px;
