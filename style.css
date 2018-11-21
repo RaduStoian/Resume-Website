@@ -21,6 +21,9 @@ p a {
     padding: 5px 10px;
     display:inline-block;
     cursor:pointer;
+    text-decoration: none;
+    color:#333333;
+    transition:0.35s;
     
    
 }
@@ -56,20 +59,48 @@ background-size: cover;
     font-size: 3vw;
     color:White;
     font-weight:900;
-    padding-top:5vh;
+    padding-top:7vh;
 }
 
 #showcase a {
-    color:white;
+    color:#fff;
     font-size:2vw;
     cursor: pointer;
     position: absolute;
-    bottom:10vh;
+    bottom:1vh;
     left:37vw;
     font-weight: 100;
   
 }
+ul {
+    list-style: none;
+}
 
+#firstli {
+    position: absolute;
+    left:56vw;
+    top:20vh;
+    
+}
+#secondli {
+    position: absolute;
+    left:56vw;
+    top:30vh;
+}
+#thirdli {
+    position: absolute;
+    left:55.79vw;
+    top:40vh;  
+}
+
+#firstli a, #secondli a ,#thirdli a {
+   color:rgb(214, 214, 214);
+   transition:0.3s;
+}
+#firstli a:hover, #secondli a:hover ,#thirdli a:hover {
+    color:rgb(255, 255, 255);
+    transition:0.1s;
+ }
 
 /*-------------Title Container --------------*/
 #title-container{
@@ -300,9 +331,13 @@ padding:10px 20px 10px 20px;
   
 }
 #php-comment{
-    min-width:226px;
+    min-width:226px;   
 }
 
+#php-comment p{
+    min-width:226px;  
+    padding-top: 18%;
+}
 
 #php-img {
   width:400px;
@@ -320,3 +355,123 @@ padding:10px 20px 10px 20px;
      padding: 50px;
      
 }
+
+
+/*-------=--------==-------======------Footer ---=------=------=------=----*/
+
+footer {
+    background-color:#333333;
+    height:500px;
+}
+
+#footer-comment {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding:80px 0px 0px 0px;
+    font-size:1.4rem;
+    font-weight:100;
+    width:50%;
+    float:right;
+    
+}
+#footer-comment a{
+   color:white;
+   border:1px solid white;
+   transition:0.35s;
+    
+}
+#footer-comment a:hover, #footer-details a:hover{
+    color:#333333;
+    background-color:white;
+    border:1px solid white;
+    transition: 0.25s;
+ }
+
+
+#footer-comment span {
+  
+    color: rgb(255, 255, 255);
+    padding:30px 0px 0px 0px;
+    font-size:2rem;
+    font-weight: bold;
+    
+}
+
+#footer-details {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding:80px 0px 0px 40px;
+    font-size:1.2rem;
+    font-weight:100;
+    width:69vw;
+    line-height: 1.4;
+    
+}
+
+
+#footer-details span {
+  
+    color: rgb(255, 255, 255);
+    padding:30px 0px 0px 0px;
+    font-size:2rem;
+    font-weight: bold;
+    
+}
+#footer-details a{
+    color:white;
+    border:1px solid white;
+    transition:0.35s;
+
+}
+
+    /*------------------FORM ----------------*/
+
+    form {
+        padding:80px 150px 0px 0px;
+        float:right;
+        color:white;
+    }
+    form input{
+        padding:5px 10px 5px 10px;
+        color:white;
+        margin:10px;
+     
+
+    }
+    form textarea{
+        padding:5px 10px 5px 10px;
+        color:white;
+        margin:10px;
+     
+
+    }
+    form span{
+        padding:5px 10px 5px 10px;
+        color:white;
+        margin:0px;
+  
+
+    }
+
+    form p {
+        color: rgb(255, 255, 255);
+        padding:0px 0px 30px 0px;
+        font-size:2rem;
+        font-weight: bold;
+    }
+
+    #submit {
+        color:#fff;
+        background-color:#333333;
+        border-radius: 15px;
+        font-size: 1rem;
+        cursor:pointer;
+        transition:0.12s;
+    }
+
+    #submit:hover {
+
+        background-color:#555555;
+        border-radius: 15px;
+        transition:0.12s;
+    }

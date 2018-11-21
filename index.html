@@ -17,12 +17,17 @@
 <body>
 
     <div id="showcase">
-        <h3>RR</h3>
         <h1>Hi, Radu here. Hire me!</h1>
         <a>Learn more about what I do <br>
         <i class="fas fa-angle-down"></i></a>
 
-       
+                <ul>
+                       <li id="firstli"><a href="https://github.com/RaduStoian" target="_blank" title="Git"><i class="fab fa-github-square fa-2x"></i></a></li>
+                       
+                       <li id="secondli"><a href="https://www.linkedin.com/in/radu-mike-stoian/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                       <li id="thirdli" title="Message me"><a><i class="fas fa-envelope fa-2x"></i></a></li>
+
+                </ul>
     </div>
    
     <section id="title-container">
@@ -81,7 +86,7 @@
 
 
         <div id="git-div">
-                <p class="comment"><span>I  use GitHub on a daily basis.</span> <br><br> Keeps my projects up to date <br>for my laptop and my desktop. <br><br><a>Learn More</a></p>
+                <p class="comment"><span>I  use GitHub on a daily basis.</span> <br><br> Keeps my projects up to date <br>for my laptop and my desktop. <br><br><a href="https://github.com/RaduStoian" target="_blank">View my GitHub</a></p>
                 
                 <img id="github-img" src="images/github2.png"></img>
          </div>
@@ -90,7 +95,7 @@
 
         <div id="node-div">  
         
-                <p class="comment"><span>I've experimented with Node.js</span> <br><br>Made a basic video chat app <br> with Express and Socket.io <br><br><a>Learn More</a></p>
+                <p class="comment"><span>I've experimented with Node.js</span> <br><br>Made a basic video chat app <br> with Express and Socket.io <br><br><a>View on Heroku</a></p>
         
                 <img id="node-img" src="images/node.png"></img>  
         </div>
@@ -105,7 +110,7 @@
     <div id="second-showcase">
 
           <div > 
-                <p class="comment"><span>I Design with Photoshop</span> <br><br>Web pages, thumbnails <br> and much more. <br><br><a>Learn More</a></p>
+                <p class="comment"><span>I Design with Photoshop</span> <br><br>Web pages, thumbnails <br> and much more. <br><br><a>See Gallery</a></p>
                 <img id="ps-img" src="images/ps.png"></img>       
 
         </div>     
@@ -140,6 +145,38 @@
                  
                       
        </div>
+
+
+
+
+       <footer>
+       
+       
+        <form action="form.php" method="post">
+                <p>Send me a message.</p>
+
+                <span>Name</span>
+                <br>
+                <input type="text" name="name" id="name" />
+              <br>
+              <span>Email</span>
+              <br>
+                <input type="text" name="email" id="email" />
+                <br><br>
+              <span>Message</span> 
+              <br>
+                <textarea name="message" rows="5" cols="20" id="message"></textarea>
+              <br>
+                <input id="submit" type="submit" name="submit" value="Submit" />
+              </form>
+
+       
+        <div>
+                <p id="footer-details"><span>About Me</span> <br><br>I'm Radu Mike Stoian, a 25 year old Romanian Front-End Developer.<br><br> I developed my passion for web design and coding after finishing my Master's in Business Management.
+                       <br> I love creating beautifully simple and intuitive designs. <br><br>Currently improving my JS & JQuery, PHP and Linux server management. <br><br><br><a href="#showcase">Back to top</a></p>
+        </div>
+
+       </footer>
    
 </body>
 </html>
