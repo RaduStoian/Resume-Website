@@ -49,10 +49,10 @@ background-size: cover;
 }
 
 #showcase h1 {
-    font-size: 5vw;
+    font-size: 4vw;
     color:White;
     font-weight:900;
-    padding-top:35vh;
+    padding-top:40vh;
 }
 
 #showcase h3 {
@@ -433,14 +433,14 @@ footer {
     }
     form input{
         padding:5px 10px 5px 10px;
-        color:white;
+        color:black;;
         margin:10px;
      
 
     }
     form textarea{
         padding:5px 10px 5px 10px;
-        color:white;
+        color:black;;
         margin:10px;
      
 
