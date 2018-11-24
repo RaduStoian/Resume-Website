@@ -61,15 +61,20 @@ background-size: cover;
     font-weight:900;
     padding-top:7vh;
 }
-
+#showcase-a-container {
+    width:40vw;
+    margin:0px auto;
+    text-align:center;
+   margin-top:300px;
+}
+#showcase a {
+font-size:1.3rem;
+}
 #showcase a {
     color:#fff;
     font-size:2vw;
     cursor: pointer;
-    position: absolute;
-    bottom:1vh;
-    left:37vw;
-    font-weight: 100;
+ 
   
 }
 ul {
@@ -78,18 +83,18 @@ ul {
 
 #firstli {
     position: absolute;
-    left:56vw;
+    left:93vw;
     top:20vh;
     
 }
 #secondli {
     position: absolute;
-    left:56vw;
+    left:93vw;
     top:30vh;
 }
 #thirdli {
     position: absolute;
-    left:55.79vw;
+    left:92.79vw;
     top:40vh;  
 }
 
@@ -237,12 +242,17 @@ ul {
     grid-template-columns: repeat(2,1fr);
     grid-gap: 13px;
     margin-bottom: 13px;
+    overflow:hidden;
      
 }
 
 #git-div {
     text-align: center;
     background-color: rgba(235, 235, 235, 0.40);
+    background-image: url(images/github2.png);
+    background-repeat: no-repeat;
+    background-position: center 210px;
+    background-size:300px;
     overflow: hidden;
     border-radius: 10px;
   
@@ -254,6 +264,10 @@ ul {
     background-color: rgba(235, 235, 235, 0.40);
     overflow: hidden;
     border-radius: 10px;
+    background-image: url(images/node.png);
+    background-repeat: no-repeat;
+    background-position: center 260px;
+    background-size:300px;
   
 
 }
@@ -270,15 +284,7 @@ ul {
     font-weight: bold;
     
 }
-#github-img {
- width:300px;
- padding:0px 20px 10px 20px;
-}
 
-#node-img {
-  width:300px;
-  padding:50px 20px 10px 20px;
-}
 /*-------------SECOND - SHOWCASE --------------*/
 
 #second-showcase {
@@ -288,6 +294,7 @@ ul {
     grid-template-columns: repeat(2,1fr);
     grid-gap: 13px;
     margin-bottom: 13px;
+    overflow:hidden;
 }
 #second-showcase div {
     text-align: center;
@@ -296,17 +303,21 @@ ul {
 }
 
 #ps-img {
-width:300px;
-padding:10px 20px 10px 20px;
+background-image: url(images/ps.png);
+background-repeat: no-repeat;
+background-position:center 240px;
+background-size: 250px;
+
 }
 
 
 #wordpress-img {
-    width:350px;
-    padding:40px 20px 10px 20px;
-    }
+background-image: url(images/wordpress.png);
+background-repeat: no-repeat;
+background-position:center 250px;
+background-size: 320px;
 
-
+}
 
 /*-------------PHP and MySQL - SHOWCASE --------------*/
 
@@ -362,6 +373,7 @@ padding:10px 20px 10px 20px;
 footer {
     background-color:#333333;
     height:500px;
+    overflow:hidden;
 }
 
 #footer-comment {
@@ -427,7 +439,7 @@ footer {
     /*------------------FORM ----------------*/
 
     form {
-        padding:80px 150px 0px 0px;
+        margin:80px 110px 0px 20px;
         float:right;
         color:white;
     }
@@ -475,3 +487,286 @@ footer {
         border-radius: 15px;
         transition:0.12s;
     }
+
+
+    /*------------------MEDIA QUERIES ---------------*/
+
+    @media only screen and (max-width:1100px) {
+
+        #html-img {
+            background-size: 150px;
+            background-position: center;
+        }
+    
+        #css-img {
+            background-size: 122px;
+            background-position: center 82px;
+           
+        }
+       #js-img {
+             background-size: 230px;
+            background-position: center 75px;
+        }
+
+        #cool-img {
+            background-size: 124px;
+            background-position: center 78px;
+        }
+
+        
+      #techno-showcase div h4 {
+            padding-top: 210px;      
+}
+
+#php-img {
+    width:300px;
+    position: relative;
+    top:70px;
+    left:20%;
+  }
+  
+  #mysql-img {
+      width:200px;
+      position: relative;
+       top:25px;
+       right:12%;
+  }
+
+  
+#firstli {
+    position: absolute;
+    left:93vw;
+    top:20vh;
+    
+}
+#secondli {
+    position: absolute;
+    left:93vw;
+    top:26vh;
+}
+#thirdli {
+    position: absolute;
+    left:92.79vw;
+    top:32vh;  
+}
+
+#git-div {
+    background-position: center 260px;
+    background-size:230px;
+}
+
+#node-div {
+    background-position: center 300px;
+    background-size:230px;
+}
+
+#ps-img {
+    background-position:center 280px;
+    background-size: 200px;
+    
+    }
+    
+    
+    #wordpress-img {
+    background-position:center 300px;
+    background-size: 230px;
+    
+    }
+
+
+    #footer-details {
+        font-size: 1rem;
+    }
+    }
+
+    @media only screen and (max-width:860px) {
+
+        #showcase-a-container {
+            width:auto;
+            margin:0px auto;
+            text-align:center;
+            margin-top:38vh;
+    
+        }
+      #showcase a {
+         
+          font-size:1.3rem;
+         
+
+   
+      }
+        #firstli {
+            position: absolute;
+            left:90vw;
+            top:20vh;
+            
+        }
+        #secondli {
+            position: absolute;
+            left:90vw;
+            top:26vh;
+        }
+        #thirdli {
+            position: absolute;
+            left:89.79vw;
+            top:32vh;  
+        }
+
+        #php-showcase {
+            grid-template-columns: 1fr 1fr;
+            grid-column-gap: 13px;
+                }
+
+        #php-comment {
+            border-radius:14px;
+        }
+        #php-div {
+            display:none;
+            min-width:0px;
+         }
+         #php-div p{
+           
+            min-width:0px;
+         }
+
+         #mysql-img {
+             display:none;
+         }
+
+         #mysql-div {
+             background-image: url(images/php_mysql.png);
+             border-radius:14px;
+             background-repeat: no-repeat;
+             background-size: 220px;
+             background-position: center;
+             overflow:hidden;
+         }
+
+
+         form {
+             margin-right:20px;
+             margin-top:40px;
+         }
+
+         #footer-details{
+             padding-top:40px;
+         }
+    }
+
+    @media only screen and (max-width:660px) { 
+
+        #showcase h1 {
+            font-size:30px;
+        }
+
+        #showcase-a-container {
+            margin-top:30vh;
+        }
+        #firstli {
+            position: absolute;
+            left:80px;
+            top:1vh;
+            
+        }
+        #secondli {
+            position: absolute;
+            left:20px;
+            top:1vh;
+        }
+        #thirdli {
+            position: absolute;
+            left:140px;
+            top:1vh;  
+        }
+
+        #title-container h1{
+            font-size:1.4rem;
+            padding-left:20px;
+            padding-right:20px;
+        }
+        #title-container h2{
+            font-size:1.2rem;
+            padding-left:20px;
+            padding-right:20px;
+
+        }
+        #techno-showcase {
+            height:150px;
+        }
+        #techno-showcase div h4 {
+            padding-top: 110px;  
+            
+}
+        #comment1 {
+            font-size:1.1rem;
+        }
+        #html-img {
+            background-size: 70px;
+            background-position: center 36px;
+        }
+    
+        #css-img {
+            background-size: 56px;
+            background-position: center 43px;
+           
+        }
+       #js-img {
+             background-size: 110px;
+            background-position: center 40px;
+        }
+
+        #cool-img {
+            background-size: 64px;
+            background-position: center 38px;
+        }
+
+        #first-showcase{
+            grid-template-columns: 1fr;
+            height:1000px;
+        }
+
+            #second-showcase{
+                grid-template-columns: 1fr;
+                height:1000px;
+            }
+     
+            #php-showcase {
+                display:block;
+                height:500px;
+            }
+             #mysql-div {
+                 display:none;
+             }
+             #php-comment{
+                 height:500px;
+                 background-image: url(images/php_mysql.png);
+                 background-repeat:no-repeat;
+                 background-position:center 220px;
+                 background-size:250px;
+             }
+             #php-comment p{
+                min-width:226px;  
+                padding-top: 70px;
+            }
+            footer {
+                height:auto;
+                padding-bottom:20px;
+            }
+            form {
+                width:330px;
+               margin:50px auto 20px auto;
+               border:2px solid white;
+               border-radius:14px;
+               padding:5px 5px 5px 5px;
+               float:none;
+            }
+   
+            #footer-details{
+                padding:20px 0px 0px 0px;
+        
+            width:330px;
+            margin:0px auto;
+            }
+ }  
+
+  
