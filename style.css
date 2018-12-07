@@ -13,6 +13,7 @@ body {
 }
 
 
+
 /*-----------Buttons and Links ---------*/
 
 p a {
@@ -34,10 +35,11 @@ p a:hover{
     transition: 0.2s;
 }
 
-/*-------------SHOWCASE --------------*/
+
+
+/*----------====================---SHOWCASE ---------==========================-----*/
 #showcase {
 text-align: center;
-height:300px;
 background:
 linear-gradient( rgba(42, 33, 65, 0.678),
                  rgba(66, 55, 75, 0.63)
@@ -46,10 +48,11 @@ url(https://c.pxhere.com/photos/b4/46/coding_programming_working_macbook_laptop_
 height: 100vh;
 background-repeat: no-repeat;
 background-size: cover;
+overflow: hidden;
 }
 
 #showcase h1 {
-    font-size: 4vw;
+    font-size: 50px;
     color:White;
     font-weight:900;
     padding-top:40vh;
@@ -57,17 +60,14 @@ background-size: cover;
     padding-left:20px;
 }
 
-#showcase h3 {
-    font-size: 3vw;
-    color:White;
-    font-weight:900;
-    padding-top:7vh;
-}
 #showcase-a-container {
-    width:40vw;
+display:inline-block;
+padding: 0px 15px;
     margin:0px auto;
+    margin-top:270px;
     text-align:center;
-   margin-top:300px;
+   cursor: pointer;
+
 }
 #showcase a {
 font-size:1.3rem;
@@ -109,7 +109,7 @@ ul {
     transition:0.1s;
  }
 
-/*-------------Title Container --------------*/
+/*--------------===================-----Title Container --------======================------*/
 #title-container{
     margin:100px 0px 200px 0px;
     height:240px;
@@ -119,16 +119,16 @@ ul {
 
 #title-container h2{
     text-align: center; 
-    font-size:1.5rem;
+    font-size:1.6rem;
     font-weight: 100;
-    padding: 30px 20px;
+    padding: 10px 20px 30px 20px;
     rgb(37, 37, 37);
 
 }
 #title-container h1{
     text-align: center; 
     font-family: 'Lato', sans-serif;
-    font-size:2.5rem;
+    font-size:2.3rem;
     font-weight: 900;
     padding: 50px 20px 0 20px;
     color: rgb(37, 37, 37);
@@ -149,6 +149,15 @@ ul {
     background-repeat: no-repeat;
     background-size:450px;
     background-position: -170px -20px;
+    transition:200ms;
+}
+
+#my-face:hover {
+    -moz-box-shadow: 0px 0px 1px 10px  rgb(117, 107, 255); 
+    -webkit-box-shadow: 0px 1px 0px 10px  rgb(117, 107, 255); 
+    box-shadow: 0px 0px 1px 10px rgb(117, 107, 255); /* For IE 8 */
+   
+    transition: 200ms;
 }
 
 
@@ -260,7 +269,7 @@ ul {
     background-position: center 210px;
     background-size:300px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
   
 
 }
@@ -269,7 +278,7 @@ ul {
     text-align: center;
     background-color: rgba(235, 235, 235, 0.40);
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 10px 0px 0px 10px;
     background-image: url(images/node.png);
     background-repeat: no-repeat;
     background-position: center 260px;
@@ -305,7 +314,6 @@ ul {
 #second-showcase div {
     text-align: center;
     background-color: rgba(235, 235, 235, 0.40);
-    border-radius:14px;
 }
 
 #ps-img {
@@ -313,7 +321,7 @@ background-image: url(images/ps.png);
 background-repeat: no-repeat;
 background-position:center 240px;
 background-size: 250px;
-
+border-radius: 0px 10px 10px 0px;
 }
 
 
@@ -322,7 +330,7 @@ background-image: url(images/wordpress.png);
 background-repeat: no-repeat;
 background-position:center 250px;
 background-size: 320px;
-
+border-radius: 10px 0px 0px 10px;
 }
 
 /*-------------PHP and MySQL - SHOWCASE --------------*/
@@ -506,6 +514,12 @@ footer {
         width:1px;
         background-color:white;
     }
+
+    /*-----------Hide Class---------*/
+
+.hiding {
+    display:none;
+}
 
 
     /*------------------MEDIA QUERIES ---------------*/
