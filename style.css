@@ -61,12 +61,13 @@ overflow: hidden;
 }
 
 #showcase-a-container {
+position:relative;
+top:43vh;
 display:inline-block;
 padding: 0px 15px;
-    margin:0px auto;
-    margin-top:270px;
-    text-align:center;
-   cursor: pointer;
+margin:0px auto;
+text-align:center;
+cursor: pointer;
 
 }
 #showcase a {
@@ -622,13 +623,7 @@ footer {
 
     @media only screen and (max-width:860px) {
 
-        #showcase-a-container {
-            width:auto;
-            margin:0px auto;
-            text-align:center;
-            margin-top:38vh;
-    
-        }
+     
       #showcase a {
          
           font-size:1.3rem;
@@ -731,15 +726,16 @@ height:250px;
          }
     }
 
-    @media only screen and (max-width:660px) { 
+ 
+    @media only screen and (max-width:675px) { 
 
+        #showcase-a-container {
+            top:47vh;
+        }
         #showcase h1 {
             font-size:30px;
         }
 
-        #showcase-a-container {
-            margin-top:30vh;
-        }
         #firstli {
             position: absolute;
             left:80px;
@@ -850,7 +846,9 @@ height:250px;
  }  
     @media only screen and (max-width:460px) {
         
-        
+        #showcase-a-container {
+            top:40vh;
+        }
         #techno-showcase {
             grid-template-columns: repeat(2,1fr);
             height:300px;
