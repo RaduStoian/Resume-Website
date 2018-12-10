@@ -388,41 +388,9 @@ border-radius: 10px 0px 0px 10px;
 
 footer {
     background-color:#333333;
-   
     overflow:hidden;
-}
-
-#footer-comment {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    padding:80px 0px 0px 0px;
-    font-size:1.4rem;
-    font-weight:100;
-    width:50%;
-    float:right;
-    
-}
-#footer-comment a{
-   color:white;
-   border:1px solid white;
-   transition:0.35s;
-    
-}
-#footer-comment a:hover, #footer-details a:hover{
-    color:#333333;
-    background-color:white;
-    border:1px solid white;
-    transition: 0.25s;
- }
-
-
-#footer-comment span {
-  
-    color: rgb(255, 255, 255);
-    padding:30px 0px 0px 0px;
-    font-size:2rem;
-    font-weight: bold;
-    
+    display:grid;
+    grid-template-columns: 1fr  400px;
 }
 
 #footer-details {
@@ -431,8 +399,7 @@ footer {
     padding:80px 20px 20px 40px;
     font-size:1.2rem;
     font-weight:100;
-    width:69vw;
-    line-height: 1.4;
+    
     
 }
 
@@ -454,9 +421,13 @@ footer {
 
     /*------------------FORM ----------------*/
 
+    #form-container {
+    text-align: right;
+
+    }
     form {
+        text-align: left;
         margin:80px 40px 40px 20px;
-        float:right;
         color:white;
         padding-left:20px;
         border-left:1px solid white;
@@ -716,14 +687,16 @@ height:250px;
              overflow:hidden;
          }
 
-
+        footer {
+            grid-template-columns: 1fr;
+         }
          form {
              margin-right:20px;
              margin-top:40px;
          }
 
          #footer-details{
-             padding-top:40px;
+             padding:40px 20px 20px 20px;
          }
     }
 
@@ -826,6 +799,7 @@ height:250px;
                 padding-top: 70px;
             }
             footer {
+                grid-template-columns: 1fr;
                 height:auto;
                 padding-bottom:20px;
             }
@@ -839,7 +813,7 @@ height:250px;
             }
    
             #footer-details{
-                padding:20px 0px 0px 0px;
+                padding:40px 20px 20px 20px;
         
             
             margin:0px auto;

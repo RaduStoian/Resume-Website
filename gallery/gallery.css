@@ -1,0 +1,293 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+
+
+/*-----------Buttons and Links ---------*/
+
+p a {
+    border:1px solid #333333;
+    border-radius: 25px;
+    padding: 5px 10px;
+    display:inline-block;
+    cursor:pointer;
+    text-decoration: none;
+    color:#333333;
+    transition:0.35s;
+    
+   
+}
+
+p a:hover{
+    background-color: #333333;
+    color:white;
+    transition: 0.2s;
+}
+
+
+
+
+/*----------====================---SHOWCASE ---------==========================-----*/
+#showcase {
+    text-align: left;
+    background:
+    linear-gradient( rgba(42, 33, 65, 0.678),
+                     rgba(66, 55, 75, 0.63)
+                     ),
+    url(https://c.pxhere.com/photos/b4/46/coding_programming_working_macbook_laptop_technology_office_desk-860609.jpg!d);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 10px;
+    }
+    
+    #showcase h1 {
+        font-size: 90px;
+        color:White;
+        font-weight:900;
+        padding-top:30px;
+        padding-right:20px;
+        padding-left:50px;
+    }
+    
+
+  #showcase p {
+    color:white;
+    padding: 50px;
+    font-size:1.5rem;
+    font-weight: 100;
+  }
+
+  ul {
+        list-style: none;
+    }
+    
+    #homeli {
+
+        position: absolute;
+        left:92.8vw;
+        top:10vh;
+        
+    }
+    #firstli {
+        position: absolute;
+        left:93vw;
+        top:20vh;
+        
+    }
+    #secondli {
+        position: absolute;
+        left:93vw;
+        top:30vh;
+    }
+    #thirdli {
+        position: absolute;
+        left:92.79vw;
+        top:40vh;  
+    }
+    
+    #homeli a, #firstli a, #secondli a ,#thirdli a {
+       color:rgb(214, 214, 214);
+       transition:0.3s;
+    }
+    #homeli a:hover, #firstli a:hover, #secondli a:hover ,#thirdli a:hover {
+        color:rgb(255, 255, 255);
+        transition:0.1s;
+     }
+
+
+     /*----------====================---Gallery - Main ---------==========================-----*/
+    .div-img {
+        background-repeat: no-repeat;
+         background-position: center;
+         background-size: contain;
+
+
+     } 
+     
+
+     #text-for-img-1{
+        color:#333333;
+        font-size: 2rem;
+        text-align:center;
+        padding: 150px 30px;  
+        height:20px;
+        border-radius: 20px;
+        margin:auto;
+     }
+
+     #text-for-img-2{
+        color:#fff;
+        font-size: 2rem;
+        text-align:center;
+        padding: 150px 30px;  
+        background-color: #333333;
+        height:20px;
+        border-radius: 20px;
+        margin:auto;
+     }
+  
+     #text-for-img-3 {
+        color:#333333;
+        font-size: 2rem;
+        text-align:center;
+        padding: 150px 30px;  
+        height:20px;
+        border-radius: 20px;
+        margin:auto;
+     }
+  
+  
+     #grid-container-img-1 {
+         display:grid;
+         grid-gap: 10px;
+         grid-template-columns: 1fr 1fr;
+         height:500px;
+         margin:20px 5px;
+     }
+     #grid-container-img-2{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        height:400px;
+        margin:20px 5px;
+        background-color:#333333;
+        padding:20px;
+    }
+
+    #grid-container-img-3 {
+        display:grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        height:500px;
+        margin:20px 5px;
+    }
+
+     #img1 {
+         background-image: url('/images/Stag.png');
+     }
+
+     #img2 {
+        background-image: url('/images/Firewatch_with_no_watch.png');
+    }
+    #img3 {
+        background-image: url('/images/hero-eye.png');
+    }
+
+
+
+
+
+
+
+    /*-------=--------==-------======------Footer ---=------=------=------=----*/
+
+    footer {
+        background-color:#333333;
+        overflow:hidden;
+        display:grid;
+        grid-template-columns: 1fr  400px;
+    }
+    
+    #footer-details {
+        text-align: left;
+        color: rgb(255, 255, 255);
+        padding:80px 20px 20px 40px;
+        font-size:1.2rem;
+        font-weight:100;
+        
+        
+    }
+    
+    
+    #footer-details span {
+      
+        color: rgb(255, 255, 255);
+        padding:30px 0px 0px 0px;
+        font-size:2rem;
+        font-weight: bold;
+        
+    }
+    #footer-details a{
+        color:white;
+        border:1px solid white;
+        transition:0.35s;
+    
+    }
+    
+        /*------------------FORM ----------------*/
+    
+        #form-container {
+        text-align: right;
+    
+        }
+        form {
+            text-align: left;
+            margin:80px 40px 40px 20px;
+            color:white;
+            padding-left:20px;
+            border-left:1px solid white;
+        }
+        form input{
+            padding:5px 10px 5px 10px;
+            color:black;;
+            margin:10px;
+            width:147px;
+         
+    
+        }
+        form textarea{
+            padding:5px 10px 5px 10px;
+            color:black;;
+            margin:10px;
+            width:278px;
+         
+    
+        }
+        form span{
+            padding:5px 10px 5px 10px;
+            color:white;
+            margin:0px;
+      
+    
+        }
+    
+        form p {
+            color: rgb(255, 255, 255);
+            padding:0px 0px 30px 0px;
+            font-size:2rem;
+            font-weight: bold;
+        }
+    
+        #submit {
+            color:#fff;
+            background-color:#333333;
+            border-radius: 15px;
+            font-size: 1rem;
+            cursor:pointer;
+            transition:0.12s;
+        }
+    
+        #submit:hover {
+    
+            background-color:#555555;
+            border-radius: 15px;
+            transition:0.12s;
+        }
+    
+        #footer-line {
+            position:absolute;
+            top:3400px;
+            left:73%;
+            height:40%;
+            width:1px;
+            background-color:white;
+        }
+    
