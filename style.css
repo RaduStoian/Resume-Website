@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'KoHo', sans-serif;
+    font-family: sans-serif;
 }
 
 
@@ -62,7 +62,7 @@ overflow: hidden;
 
 #showcase-a-container {
 position:relative;
-top:43vh;
+top:40vh;
 display:inline-block;
 padding: 0px 15px;
 margin:0px auto;
@@ -73,6 +73,7 @@ cursor: pointer;
 #showcase a {
 font-size:1.3rem;
 }
+
 #showcase a {
     color:#fff;
     font-size:2vw;
