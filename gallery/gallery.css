@@ -47,6 +47,7 @@ p a:hover{
     background-size: cover;
     overflow: hidden;
     margin-bottom: 10px;
+    box-shadow: 0px 5px 50px 0px #888888;
     }
     
     #showcase h1 {
@@ -150,35 +151,40 @@ p a:hover{
          display:grid;
          grid-gap: 10px;
          grid-template-columns: 1fr 1fr;
-         height:500px;
-         margin:20px 5px;
+         height:600px;
+         margin:20px 0px;
      }
      #grid-container-img-2{
         display:grid;
         grid-template-columns: 1fr 1fr;
-        height:400px;
-        margin:20px 5px;
+        height:600px;
+        margin:20px 0px;
         background-color:#333333;
         padding:20px;
+        box-shadow: 0px 5px 50px 0px #888888;
     }
 
     #grid-container-img-3 {
         display:grid;
         grid-gap: 10px;
         grid-template-columns: 1fr 1fr;
-        height:500px;
-        margin:20px 5px;
+        height:600px;
+        margin:20px 0px;
+        padding:20px;
     }
 
      #img1 {
          background-image: url('/images/Stag.png');
+        
      }
 
      #img2 {
         background-image: url('/images/Firewatch_with_no_watch.png');
+
     }
     #img3 {
         background-image: url('/images/hero-eye.png');
+        
     }
 
 

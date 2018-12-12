@@ -35,7 +35,11 @@ p a:hover{
     transition: 0.2s;
 }
 
-
+#footer-details a:hover{
+    background-color: white;
+    color:#333333;
+    transition:0.2s;
+}
 
 /*----------====================---SHOWCASE ---------==========================-----*/
 #showcase {
@@ -383,7 +387,42 @@ border-radius: 10px 0px 0px 10px;
      
 }
 
+/*-------=--------==-------======------Projects Section ---=------=------=------=----*/
 
+#project-section {
+display:grid;
+grid-gap:10px;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+background-color:rgb(255, 233, 218);
+border-radius: 40px;
+width:620px;
+margin:60px auto;
+padding:10px;
+}
+
+#project1 {
+height:200px; 
+width:200px;
+border-radius:40px;
+background-color:red;
+
+}
+
+#project2 {
+    height:200px; 
+    width:200px;
+    border-radius:40px;
+    background-color:rgb(183, 255, 227);
+    
+}
+
+#project3 {
+    height:200px; 
+    width:200px;
+    border-radius:40px;
+    background-color:rgb(167, 124, 163);
+    
+}
 /*-------=--------==-------======------Footer ---=------=------=------=----*/
 
 footer {
@@ -418,6 +457,7 @@ footer {
     transition:0.35s;
 
 }
+
 
     /*------------------FORM ----------------*/
 
