@@ -74,24 +74,24 @@ p a:hover{
 
         position: absolute;
         left:92.8vw;
-        top:10vh;
+        top:80px;
         
     }
     #firstli {
         position: absolute;
         left:93vw;
-        top:20vh;
+        top:140px;
         
     }
     #secondli {
         position: absolute;
         left:93vw;
-        top:30vh;
+        top:200px;
     }
     #thirdli {
         position: absolute;
         left:92.79vw;
-        top:40vh;  
+        top:260px;  
     }
     
     #homeli a, #firstli a, #secondli a ,#thirdli a {
@@ -281,13 +281,224 @@ p a:hover{
             border-radius: 15px;
             transition:0.12s;
         }
-    
-        #footer-line {
-            position:absolute;
-            top:3400px;
-            left:73%;
-            height:40%;
-            width:1px;
-            background-color:white;
+
+        footer  #contact-details {
+            font-size:18px;
+            font-weight:100;
         }
     
+
+
+
+
+
+
+
+
+
+
+        /*MEDIA QUERIES     ======  =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   =   ==  =   =   =   =   =   =   =   ==*/
+        
+@media only screen and (max-width:1100px) {
+
+#grid-container-img-2{
+   display:block;
+   margin:20px 0px;
+   height:auto;
+   background-color:#333333;
+   padding:20px 5px;
+}
+
+#text-for-img-1{
+    font-size: 1.3rem;
+ }
+
+#text-for-img-2{
+    color:#fff;
+    font-size: 1.3rem;
+    text-align:center;
+    padding: 20px 30px 20px 0px;  
+    background-color: #333333;
+ }
+#img2 {
+    padding-bottom:46%;
+   
+    width:100%;
+}
+#img3 {
+    padding-bottom:56%;
+    width:100%;
+}
+
+#grid-container-img-3 {
+   display:block;
+   padding:20px 5px;
+   margin:20px 0px;
+   height:auto;
+}
+
+ #text-for-img-3 {
+    color:#333333;
+    font-size: 1.3rem;
+    text-align:center;
+    padding: 20px 30px 0px 30px;  
+    
+ }
+
+
+
+}
+
+@media only screen and (max-width:860px) {
+
+ 
+  #showcase a {
+     
+      font-size:1.3rem;
+
+  }
+
+
+  #showcase h1 {
+      font-size:3.4rem;
+  }
+
+    #showcase p {
+        font-size:1.2rem;
+
+    }
+  
+  #homeli {
+    position: absolute;
+    left:89.5vw;
+    
+    
+}
+    #firstli {
+        position: absolute;
+        left:90vw;
+    
+        
+    }
+    #secondli {
+        position: absolute;
+        left:90vw;
+      
+    }
+    #thirdli {
+        position: absolute;
+        left:89.79vw;
+        
+    }
+
+
+    footer {
+        grid-template-columns: 1fr;
+     }
+     form {
+         margin-right:20px;
+         margin-top:40px;
+     }
+
+     #footer-details{
+         padding:40px 20px 20px 20px;
+     }
+}
+
+
+@media only screen and (max-width:675px) { 
+
+   
+    #showcase h1 {
+        font-size:50px;
+        padding-top:100px;
+    }
+
+    #homeli {
+        position: absolute;
+        left:20px;
+        top:10px;
+        
+    }
+
+    #firstli {
+        position: absolute;
+        left:80px;
+        top:10px;
+        
+    }
+    #secondli {
+        position: absolute;
+        left:140px;
+        top:10px;
+    }
+    #thirdli {
+        position: absolute;
+        left:200px;
+        top:10px;  
+    }
+
+
+    #grid-container-img-1 {
+        display:block;;
+        height:auto;
+        margin:20px 5px;
+    }
+
+    #text-for-img-1{
+        color:#333333;
+        font-size: 1.3rem;
+        text-align:center;
+        padding: 20px 30px;  
+       
+     }
+     #img1 {
+         widows: 100%;
+         padding-bottom:60%;
+     }
+
+
+        footer {
+            grid-template-columns: 1fr;
+            height:auto;
+            padding-bottom:20px;
+        }
+        form {
+            max-width:330px;
+           margin:50px auto 20px auto;
+           border:2px solid white;
+           border-radius:14px;
+           padding:5px 5px 5px 5px;
+           float:none;
+        }
+
+        #footer-details{
+            padding:40px 20px 20px 20px;
+    
+        
+        margin:0px auto;
+        }
+}  
+@media only screen and (max-width:460px) {
+   
+
+form textarea{
+    padding:5px 10px 5px 10px;
+    color:black;;
+    margin:10px;
+    width:200px;
+ 
+}
+form {
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#showcase p {
+    display:none;
+}
+
+#showcase h1 {
+    padding-top:160px;
+}
+}

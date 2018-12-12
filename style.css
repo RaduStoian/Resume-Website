@@ -479,13 +479,11 @@ footer {
         transition:0.12s;
     }
 
-    #footer-line {
-        position:absolute;
-        top:3400px;
-        left:73%;
-        height:40%;
-        width:1px;
-        background-color:white;
+
+   footer  #contact-details {
+        font-size:18px;
+        font-weight:100;
+     
     }
 
     /*-----------Hide Class---------*/
