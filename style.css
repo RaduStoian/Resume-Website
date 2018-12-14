@@ -225,10 +225,10 @@ ul {
         
     }
     #cool-img {
-        background-image: url(images/design.png);
-        background-size: 186px;
+        background-image: url(images/jquery2.png);
+        background-size: 165px;
         background-repeat: no-repeat;
-        background-position: center 86px;
+        background-position: center 97px;
        
          
     }
@@ -249,6 +249,156 @@ ul {
     font-weight:100;
     
 }
+
+
+/*-------------MAIN - SHOWCASE --------------*/
+
+
+
+#main-showcase {
+ 
+    margin:0px auto;
+    height:550px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 13px;
+    margin-bottom: 13px;
+    overflow:hidden;
+     
+}
+
+#main1-div {
+    text-align: center;
+    background-color: rgba(235, 235, 235, 0.40);
+    background-image: url(images/apple2.jpg);
+    background-repeat: no-repeat;
+    background-position: center 230px;
+    background-size:230px;
+    overflow: hidden;
+    border-radius: 0px 10px 10px 0px;
+  
+
+}
+
+#main2-div {
+    text-align: center;
+    background-color: rgba(235, 235, 235, 0.40);
+    overflow: hidden;
+    border-radius: 10px 0px 0px 10px;
+    background-image: url(images/node.png);
+    background-repeat: no-repeat;
+    background-position: center 260px;
+    background-size:300px;
+  
+
+}
+
+.comment  {
+    padding:50px 20px 0px 20px;
+    color: rgb(30, 42, 65);
+    font-size:1.2rem;
+    font-weight:100;
+}
+
+.comment span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+}
+
+/*-------------Extra - TECHNO - SHOWCASE --------------*/
+
+#extra-techno-showcase-container {
+    background-color:#333333;
+    margin-bottom:13px;
+    text-align: center;
+}
+
+
+#extra-techno-showcase {
+    width:80vw;
+    margin:0px auto;
+    height:350px;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 0px;
+    overflow:hidden;
+    
+
+   
+    
+}
+
+#extra-techno-showcase div {
+    
+    text-align: center;
+    font-size:1rem;
+    color:white;
+    overflow:hidden;  
+}
+
+
+
+     #git-img {
+        background-image: url(images/git-icon.png);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: center 80px;
+        
+    }
+
+    #node-img {
+        background-image: url(images/node-icon.png);
+        background-size: 195px;
+        background-repeat: no-repeat;
+        background-position: center 86px;
+        
+       
+    }
+    #wordpress-img {
+        background-image: url(images/wordpress-icon.png);
+        background-size: 110px;
+        background-repeat: no-repeat;
+        background-position: center 88px;
+        
+       
+    }
+
+     #design-img {
+        background-image: url(images/design.png);
+        background-size: 125px;
+        background-repeat: no-repeat;
+        background-position: center 80px;
+       
+         
+    }
+   #linux-img {
+        background-image: url(images/linux-icon2.png);
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: center 83px;
+        
+    }
+   
+    
+
+#extra-techno-showcase div h4 {
+    color: rgb(255, 255, 255);
+    padding-top: 230px;
+    font-size:1rem;
+    font-weight: 100;
+}
+
+#comment2  {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding:80px 20px 0px 20px;
+    font-size:1.8rem;
+    font-weight:100;
+    
+}
+
 
 
 /*-------------first - SHOWCASE --------------*/
@@ -293,18 +443,6 @@ ul {
 
 }
 
-.comment  {
-    padding:50px 20px 0px 20px;
-    color: rgb(30, 42, 65);
-    font-size:1.2rem;
-    font-weight:100;
-}
-
-.comment span {
-    font-size: 2rem;
-    font-weight: bold;
-    
-}
 
 /*-------------SECOND - SHOWCASE --------------*/
 
@@ -322,7 +460,7 @@ ul {
     background-color: rgba(235, 235, 235, 0.40);
 }
 
-#ps-img {
+#ps-div {
 background-image: url(images/ps.png);
 background-repeat: no-repeat;
 background-position:center 240px;
@@ -331,7 +469,7 @@ border-radius: 0px 10px 10px 0px;
 }
 
 
-#wordpress-img {
+#wordpress-div {
 background-image: url(images/wordpress.png);
 background-repeat: no-repeat;
 background-position:center 250px;
@@ -531,9 +669,19 @@ footer {
 .hiding {
     display:none;
 }
+    /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
+    /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
+    /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
+    /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
+    /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
+        /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
 
+            /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
 
-    /*------------------MEDIA QUERIES ---------------*/
+                /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
+
+                    /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
+
 
     @media only screen and (max-width:1100px) {
 
@@ -563,8 +711,8 @@ footer {
         }
 
         #cool-img {
-            background-size: 137px;
-            background-position: center 73px;
+            background-size: 122px;
+            background-position: center 77px;
         }
 
         
@@ -604,6 +752,16 @@ footer {
     top:32vh;  
 }
 
+#main1-div {
+    background-position: center 260px;
+    background-size:180px;
+}
+
+#main2-div {
+    background-position: center 300px;
+    background-size:230px;
+}
+
 #git-div {
     background-position: center 260px;
     background-size:230px;
@@ -614,14 +772,14 @@ footer {
     background-size:230px;
 }
 
-#ps-img {
+#ps-div {
     background-position:center 280px;
     background-size: 200px;
     
     }
     
     
-    #wordpress-img {
+    #wordpress-div {
     background-position:center 300px;
     background-size: 230px;
     
@@ -689,10 +847,53 @@ height:250px;
         }
 
         #cool-img {
-            background-size: 124px;
-            background-position: center 28px;
+            background-size: 106px;
+            background-position: center 34px;
         }
 
+
+
+
+        #extra-techno-showcase {
+            grid-template-columns: repeat(3,1fr);
+            height:260px;
+            padding-bottom:40px;
+          
+        }
+
+        #comment2 {
+            font-size:1.2rem;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        #git-img {
+            background-size: 60px;
+            background-position: center 10px;
+        }
+    
+        #node-img {
+            background-size: 106px;
+            background-position: center 12px;
+           
+        }
+       #design-img {
+             background-size: 64px;
+            background-position: center 10px;
+        }
+
+        #wordpress-img {
+            background-size: 66px;
+            background-position: center 0px;
+        }
+        #linux-img {
+            background-size: 60px;
+            background-position: center 0px;
+        }
+
+        #extra-techno-showcase div h4 {
+            padding-top: 90px;  
+            
+}
 
 
         #php-showcase {
@@ -804,15 +1005,20 @@ height:250px;
         }
 
         #cool-img {
-            background-size: 64px;
-            background-position: center 28px;
+            background-size: 60px;
+            background-position: center 32px;
         }
 
         #first-showcase{
             grid-template-columns: 1fr;
             height:1000px;
+            
         }
 
+        #main-showcase{
+            grid-template-columns: 1fr;
+            height:1000px;
+        }
             #second-showcase{
                 grid-template-columns: 1fr;
                 height:1000px;
@@ -883,7 +1089,7 @@ height:250px;
         }
     
         #css-img {
-            background-size: 81px;
+            background-size: 80px;
             background-position: center 11px;
             
            
@@ -894,7 +1100,7 @@ height:250px;
         } 
 
         #cool-img {
-            background-size: 84px;
+            background-size: 80px;
             background-position: center 13px;
         }
 
