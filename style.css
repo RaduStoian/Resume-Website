@@ -258,10 +258,6 @@ ul {
 #main-showcase {
  
     margin:0px auto;
-    height:550px;
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 13px;
     margin-bottom: 13px;
     overflow:hidden;
      
@@ -275,23 +271,11 @@ ul {
     background-position: center 230px;
     background-size:230px;
     overflow: hidden;
-    border-radius: 0px 10px 10px 0px;
+    height:600px;
   
 
 }
 
-#main2-div {
-    text-align: center;
-    background-color: rgba(235, 235, 235, 0.40);
-    overflow: hidden;
-    border-radius: 10px 0px 0px 10px;
-    background-image: url(images/node.png);
-    background-repeat: no-repeat;
-    background-position: center 260px;
-    background-size:300px;
-  
-
-}
 
 .comment  {
     padding:50px 20px 0px 20px;
@@ -525,42 +509,6 @@ border-radius: 10px 0px 0px 10px;
      
 }
 
-/*-------=--------==-------======------Projects Section ---=------=------=------=----*/
-
-#project-section {
-display:grid;
-grid-gap:10px;
-grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-background-color:rgb(255, 233, 218);
-border-radius: 40px;
-width:620px;
-margin:60px auto;
-padding:10px;
-}
-
-#project1 {
-height:200px; 
-width:200px;
-border-radius:40px;
-background-color:red;
-
-}
-
-#project2 {
-    height:200px; 
-    width:200px;
-    border-radius:40px;
-    background-color:rgb(183, 255, 227);
-    
-}
-
-#project3 {
-    height:200px; 
-    width:200px;
-    border-radius:40px;
-    background-color:rgb(167, 124, 163);
-    
-}
 /*-------=--------==-------======------Footer ---=------=------=------=----*/
 
 footer {
@@ -757,10 +705,7 @@ footer {
     background-size:180px;
 }
 
-#main2-div {
-    background-position: center 300px;
-    background-size:230px;
-}
+
 
 #git-div {
     background-position: center 260px;
@@ -1015,6 +960,29 @@ height:250px;
             
         }
 
+        #main1-div {
+            border-radius:0px;
+        }
+        #main2-div {
+            border-radius:0px;
+        }
+        #git-div {
+            border-radius:0px;
+            background-position: center 220px;
+        }
+
+        #node-div {
+            border-radius:0px;
+        }
+        #ps-div {
+            border-radius:0px;
+        }
+        #wordpress-div {
+            border-radius:0px;
+        }
+        #php-comment {
+            border-radius:0px;
+        }
         #main-showcase{
             grid-template-columns: 1fr;
             height:1000px;
