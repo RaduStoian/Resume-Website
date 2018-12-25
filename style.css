@@ -63,7 +63,7 @@ overflow: hidden;
     font-size: 50px;
     color:White;
     font-weight:900;
-    padding-top:40vh;
+    padding-top:20vh;
     padding-right:20px;
     padding-left:20px;
 }
@@ -892,7 +892,7 @@ height:250px;
     @media only screen and (max-width:675px) { 
 
         #showcase-a-container {
-            top:47vh;
+            top:37vh;
         }
         #showcase h1 {
             font-size:30px;
@@ -958,17 +958,17 @@ height:250px;
             background-position: center 32px;
         }
 
+
+
+
+
+
+
+
         #first-showcase{
             grid-template-columns: 1fr;
             height:1000px;
             
-        }
-
-        #main1-div {
-            border-radius:0px;
-        }
-        #main2-div {
-            border-radius:0px;
         }
         #git-div {
             border-radius:0px;
@@ -986,10 +986,6 @@ height:250px;
         }
         #php-comment {
             border-radius:0px;
-        }
-        #main-showcase{
-            grid-template-columns: 1fr;
-            height:1000px;
         }
             #second-showcase{
                 grid-template-columns: 1fr;
@@ -1037,8 +1033,15 @@ height:250px;
  }  
     @media only screen and (max-width:460px) {
         
+        #my-logo {
+            height:70px;
+        }
+
+        #showcase-h1 {
+            padding-top:20vh;
+        }
         #showcase-a-container {
-            top:40vh;
+            top:25vh;
         }
         #techno-showcase {
             grid-template-columns: repeat(2,1fr);
