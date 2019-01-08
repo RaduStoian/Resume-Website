@@ -463,27 +463,108 @@ p a:hover{
      }
 
 
-        footer {
-            grid-template-columns: 1fr;
-            height:auto;
-            padding-bottom:20px;
-        }
-        form {
-            max-width:330px;
-           margin:50px auto 20px auto;
-           border:2px solid white;
-           border-radius:14px;
-           padding:5px 5px 5px 5px;
-           float:none;
-        }
+/*-------=--------==-------======------Footer ---=------=------=------=----*/
 
-        #footer-details{
-            padding:40px 20px 20px 20px;
+footer {
+    background-color:#333333;
+    overflow:hidden;
+    display:grid;
+    grid-template-columns: 1fr  400px;
+}
+
+#footer-details {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding:80px 20px 20px 40px;
+    font-size:1.2rem;
+    font-weight:100;
     
-        
-        margin:0px auto;
-        }
-}  
+    
+}
+
+
+#footer-details span {
+  
+    color: rgb(255, 255, 255);
+    padding:30px 0px 0px 0px;
+    font-size:2rem;
+    font-weight: bold;
+    
+}
+#footer-details a{
+    color:white;
+    border:1px solid white;
+    transition:0.35s;
+
+}
+
+
+    /*------------------FORM ----------------*/
+
+    #form-container {
+    text-align: right;
+
+    }
+    form {
+        text-align: left;
+        margin:80px 40px 40px 20px;
+        color:white;
+        padding-left:20px;
+        border-left:1px solid white;
+    }
+    form input{
+        padding:5px 10px 5px 10px;
+        color:black;;
+        margin:10px;
+        width:147px;
+     
+
+    }
+    form textarea{
+        padding:5px 10px 5px 10px;
+        color:black;;
+        margin:10px;
+        width:278px;
+     
+
+    }
+    form span{
+        padding:5px 10px 5px 10px;
+        color:white;
+        margin:0px;
+  
+
+    }
+
+    form p {
+        color: rgb(255, 255, 255);
+        padding:0px 0px 30px 0px;
+        font-size:2rem;
+        font-weight: bold;
+    }
+
+    #submit {
+        color:#fff;
+        background-color:#333333;
+        border-radius: 15px;
+        font-size: 1rem;
+        cursor:pointer;
+        transition:0.12s;
+    }
+
+    #submit:hover {
+
+        background-color:#555555;
+        border-radius: 15px;
+        transition:0.12s;
+    }
+
+
+   footer  #contact-details {
+        font-size:20px;
+        font-weight:100;
+     
+    }
 @media only screen and (max-width:460px) {
    
 
