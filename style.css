@@ -513,6 +513,56 @@ border-radius: 10px 0px 0px 10px;
      
 }
 
+/*----------------------------------GAME SHOWCASE--------------------- --------------*/
+
+#game-showcase {
+    background-color:white;
+}
+
+#game-description {
+    color:#333333;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom:100px;
+    padding:0px 15px 0px 15px;
+}
+
+#game-title {
+    color:#333333;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top:150px;
+}
+
+#game-div {
+    width: 150px;
+    height:150px;
+    border:3px solid #333333;
+    border-radius: 15px;
+    margin:40px auto 50px auto;
+    background-color:rgba(51, 51, 51, 0);
+    background-image:url(images/poop.png);
+    background-size:150px;
+    background-repeat:no-repeat;
+    background-position: 0px 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: .4s;
+}
+
+#game-div:hover{
+    background-color:rgba(51, 51, 51, 1);
+    transition:.4s
+}
+
+#game-div a{
+    text-decoration: none;
+}
+
+
+
 /*-------=--------==-------======------Footer ---=------=------=------=----*/
 
 footer {
