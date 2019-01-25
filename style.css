@@ -70,7 +70,7 @@ overflow: hidden;
 
 #showcase-a-container {
 position:relative;
-top:40vh;
+top:35vh;
 display:inline-block;
 padding: 0px 15px;
 margin:0px auto;
@@ -80,6 +80,7 @@ cursor: pointer;
 }
 #showcase a {
 font-size:1.3rem;
+
 }
 
 #showcase a {
@@ -96,18 +97,18 @@ ul {
 #firstli {
     position: absolute;
     left:93vw;
-    top:20vh;
+    top:150px;
     
 }
 #secondli {
     position: absolute;
     left:93vw;
-    top:30vh;
+    top:230px;
 }
 #thirdli {
     position: absolute;
     left:92.79vw;
-    top:40vh;  
+    top:310px;  
 }
 
 #firstli a, #secondli a ,#thirdli a {
@@ -595,78 +596,6 @@ footer {
 }
 
 
-    /*------------------FORM ----------------*/
-
-    #form-container {
-    text-align: right;
-
-    }
-    form {
-        text-align: left;
-        margin:80px 40px 40px 20px;
-        color:white;
-        padding-left:20px;
-        border-left:1px solid white;
-    }
-    form input{
-        padding:5px 10px 5px 10px;
-        color:black;;
-        margin:10px;
-        width:147px;
-     
-
-    }
-    form textarea{
-        padding:5px 10px 5px 10px;
-        color:black;;
-        margin:10px;
-        width:278px;
-     
-
-    }
-    form span{
-        padding:5px 10px 5px 10px;
-        color:white;
-        margin:0px;
-  
-
-    }
-
-    form p {
-        color: rgb(255, 255, 255);
-        padding:0px 0px 30px 0px;
-        font-size:2rem;
-        font-weight: bold;
-    }
-
-    #submit {
-        color:#fff;
-        background-color:#333333;
-        border-radius: 15px;
-        font-size: 1rem;
-        cursor:pointer;
-        transition:0.12s;
-    }
-
-    #submit:hover {
-
-        background-color:#555555;
-        border-radius: 15px;
-        transition:0.12s;
-    }
-
-
-   footer  #contact-details {
-        font-size:20px;
-        font-weight:100;
-     
-    }
-
-    /*-----------Hide Class---------*/
-
-.hiding {
-    display:none;
-}
     /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
     /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
     /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
@@ -680,6 +609,8 @@ footer {
 
                     /*-----------------------------------------------------MEDIA QUERIES -----------------------------------------------*/
 
+  @media screen and (min-width: 1080px) {
+     #showcase a {  font-size:30px;} }
 
     @media only screen and (max-width:1100px) {
 
@@ -736,18 +667,18 @@ footer {
 #firstli {
     position: absolute;
     left:93vw;
-    top:20vh;
+    top:100px;
     
 }
 #secondli {
     position: absolute;
     left:93vw;
-    top:26vh;
+    top:160px;
 }
 #thirdli {
     position: absolute;
     left:92.79vw;
-    top:32vh;  
+    top:220px;  
 }
 
 #main1-div {
@@ -797,18 +728,18 @@ footer {
         #firstli {
             position: absolute;
             left:90vw;
-            top:20vh;
+            top:60px;
             
         }
         #secondli {
             position: absolute;
             left:90vw;
-            top:26vh;
+            top:120px;
         }
         #thirdli {
             position: absolute;
             left:89.79vw;
-            top:32vh;  
+            top:180px;  
         }
 
 
