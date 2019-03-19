@@ -133,7 +133,6 @@ ul {
     font-size:1.6rem;
     font-weight: 100;
     padding: 10px 20px 30px 20px;
-    rgb(37, 37, 37);
 
 }
 #title-container h1{
@@ -309,7 +308,7 @@ ul {
     margin:0px auto;
     height:350px;
     display:grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(6,1fr);
     grid-gap: 0px;
     overflow:hidden;
     
@@ -365,6 +364,14 @@ ul {
    #linux-img {
         background-image: url(images/linux-icon2.png);
         background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: center 83px;
+        
+    }
+
+    #sass-img {
+        background-image: url(images/sass.png);
+        background-size: 140px;
         background-repeat: no-repeat;
         background-position: center 83px;
         
@@ -551,10 +558,25 @@ border-radius: 10px 0px 0px 10px;
     transition: .4s;
 }
 
+
+#harvard-div {
+    background-image: url("images/harvard.png");
+    background-size:250px;
+    background-position:20px 16px;
+    height: 130px;
+    width:300px;
+}
 #game-div2 {
     background-image: url("images/js.png");
     background-size:200px;
     background-position:-24px 23px;
+}
+
+#game-div3 {
+    background-image: url("images/calculator.png");
+    background-size:150px;
+    background-position:0px 3px;
+    height: 210px;
 }
 
 .game-div:hover{
@@ -784,7 +806,10 @@ height:250px;
             background-position: center 34px;
         }
 
-
+        #sass-img {
+            background-size: 90px;
+            background-position: center 0px;
+        }
 
 
         #extra-techno-showcase {
